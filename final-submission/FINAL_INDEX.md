@@ -1,43 +1,82 @@
 # FlyRank AI Fluency — Final Index
 
-> Single entry point for the complete internship evidence archive.
+> Single reviewer entry point for the General AI Fluency internship evidence archive.
 
-## Submission checklist
+## Status legend
 
-| Area | Repository location | Current evidence |
-|---|---|---|
-| FL-01 | `assignments/FL-01/` | AI workflow audit + supporting account/certificate/project evidence |
-| FL-02 | `assignments/FL-02/` | Prompt-ladder submissions + project configuration + pressure-test evidence |
-| FL-03 | `assignments/FL-03/` | Curation/through-line/portfolio consistency submissions + selected image evidence |
-| FL-04 | `assignments/FL-04/` | Automation Workflow V2 deliverable |
-| FL-05 | `assignments/FL-05/` | Agent Concepts and MCP Basics deliverable |
-| FL-06 | `assignments/FL-06/` | Make It Do Something explainer + proof + JARVIS agent design document |
-| FL-07 | `assignments/FL-07/` | JARVIS submission archive |
-| Impact / capstone | `capstone/impact-project/` | Impact Project Submission / Capstone |
-| Documentation + demo | `capstone/documentation-demo/` | Final README/demo package to be linked here |
-| Portfolio evidence | `portfolio/` | Sitemap, stack decision, identity kit, and mobile-fix evidence |
-| Supporting work | `supporting-work/` | Additional portfolio/site/security evidence retained separately |
-| Retrospective | `final-submission/` | Retrospective/context materials maintained here |
-| Final review | `capstone/final-review/` | Final checkpoint evidence to be added when available |
+- ✅ **COMPLETE / VERIFIED** — evidence is present and the requirement is supported by the material reviewed.
+- ⚠️ **PRESENT / NEEDS VERIFICATION** — relevant evidence exists, but an external condition or final proof is still unverified.
+- ❌ **MISSING** — no supporting evidence was found.
+- 📌 **PORTAL-ONLY** — completion must be verified in the FlyRank portal.
+- ❓ **SOURCE NEEDED** — the exact requirement cannot be established from the authoritative material currently available.
 
-## Classification rule
+## Requirement audit
 
-This archive deliberately avoids forcing every artifact into a Week 01–Week 08 structure. Explicit assignment codes are grouped under their assignment; portfolio/capstone/supporting artifacts are grouped by purpose. When a filename does not establish an assignment confidently, the artifact stays in supporting work rather than being misclassified.
+| Area | Evidence | Status | Reviewer note |
+|---|---|---|---|
+| FL-01 | `assignments/FL-01/` | ⚠️ PRESENT / NEEDS VERIFICATION | AI workflow audit, ChatGPT/Claude evidence, and certificate evidence are preserved. Exact portal submission state is not visible here. |
+| FL-02 | `assignments/FL-02/` | ⚠️ PRESENT / NEEDS VERIFICATION | Prompt-ladder material, project configuration, pressure tests, and sitemap evidence are preserved. The clean final prompt-ladder document records the experiment as complete. |
+| FL-03 | `assignments/FL-03/` | ⚠️ PRESENT / NEEDS VERIFICATION | Curation, through-line, proof statement, consistency work, and keeper images are preserved. The portfolio pack notes that actual image binaries still required portal verification. |
+| FL-04 | `assignments/FL-04/` | ⚠️ PRESENT / NEEDS VERIFICATION | Automation Workflow V2 deliverable is present; exact portal submission state is external. |
+| FL-05 | `assignments/FL-05/` | ⚠️ PRESENT / NEEDS VERIFICATION | Agent Concepts and MCP Basics document is present and includes workflow-vs-agent analysis plus connector evidence; exact portal submission state is external. |
+| FL-06 | `assignments/FL-06/` | ⚠️ PRESENT / NEEDS VERIFICATION | Explainer, proof, and JARVIS agent design document are preserved. The explainer itself records an end-to-end contact-flow verification dependency. |
+| FL-07 | `assignments/FL-07/` | ⚠️ PRESENT / NEEDS VERIFICATION | JARVIS submission archive is preserved; the exact assignment brief/status is not represented inside this repository. |
+| FL-08 | — | ❓ SOURCE NEEDED | The authoritative FlyRank materials currently expose Week 9 assignments by name rather than an FL-08 code. Do not invent a code mapping. See the audit report in this conversation. |
+| FL-09 | portfolio `README.md` + supplied demo link | ⚠️ PRESENT / NEEDS VERIFICATION | README now contains purpose, audience, setup, usage, architecture, v2 hardening result, limitations, AI disclosure, and demo URL. The video is supplied but was not independently watched here; showcase-thread submission remains portal-only. |
+| FL-10 | this index + portfolio `docs/RETROSPECTIVE.md` + live site | ⚠️ PRESENT / NEEDS VERIFICATION | Master index and 500–800 word retrospective exist; live site exists. Hours log, FlyRank domain, build-in-public post, and final human review/sign-off remain external verification items. |
 
-## Portfolio evidence
+## Core evidence map
 
-The portfolio evidence records the information architecture and design decisions behind the personal site. The locked visual direction uses Space Grotesk for headings, Inter for body text, Deep Burgundy `#6B1F2A`, Ink `#171717`, and Warm White `#F7F5F2`, with a quietly technical and deliberate mood.
+### FL-01 → FL-07
 
-## External deliverables
+Open the corresponding folder under `assignments/`. These folders contain the preserved evidence artifacts rather than relying on filenames alone.
 
-- Live portfolio: `https://ayyan-hassan-portfolio.vercel.app/`
-- Documentation/demo video: permanent Drive link supplied for the final package; record it in the documentation/demo material rather than pretending the video is stored in GitHub.
-- Build-in-public post: link only if actually published.
+### FL-09 — Documentation and demo
+
+The final portfolio README is the primary documentation artifact:
+
+- Portfolio repository: https://github.com/MuhammadAyyanHassan/Ayyan_Hassan_portfolio
+- README: https://github.com/MuhammadAyyanHassan/Ayyan_Hassan_portfolio/blob/main/README.md
+- Demo video: https://drive.google.com/file/d/1Hh46s-fWuV6vJdVaUVUjC5R3qxgsra5O/view?usp=sharing
+
+The README covers the required setup, usage, architecture, v2 hardening result, limitations, and AI-use disclosure. The demo link is the supplied permanent Drive artifact; no claim is made here that the video was independently watched during this audit.
+
+### FL-10 — Final package / retrospective / capstone checkpoint
+
+- Retrospective: https://github.com/MuhammadAyyanHassan/Ayyan_Hassan_portfolio/blob/main/docs/RETROSPECTIVE.md
+- Portfolio reviewer context: https://github.com/MuhammadAyyanHassan/Ayyan_Hassan_portfolio/blob/main/docs/REVIEWER_CONTEXT.md
+- Live portfolio: https://ayyan-hassan-portfolio.vercel.app/
+- Portfolio repository: https://github.com/MuhammadAyyanHassan/Ayyan_Hassan_portfolio
+- LinkedIn: https://www.linkedin.com/in/muhammad-ayyan-hassan/
+
+### Capstone / impact project
+
+`capstone/impact-project/FL_Impact_Project_Submission_Capstone.pdf` documents the repeatable process for adding the next portfolio case study. It explicitly identifies ShiftWise as the next planned case and does **not** claim that the case is already published.
+
+### Portfolio evidence
+
+`portfolio/` preserves the sitemap, stack decision, mobile-fix log, and identity kit. The locked visual system is:
+
+- Space Grotesk — headings
+- Inter — body
+- Deep Burgundy `#6B1F2A`
+- Ink `#171717`
+- Warm White `#F7F5F2`
+- Mood: quietly technical and deliberate
+
+## External / portal-only gates
+
+The following cannot honestly be marked complete from GitHub alone:
+
+1. FlyRank portal submission/save state for each assignment.
+2. Verified hours log.
+3. Required FlyRank launch/custom-domain condition and any associated badge requirement.
+4. Build-in-public post URL, unless an actual published post is supplied.
+5. Final human review/checkpoint and sign-off.
+6. Any showcase-thread submission required by FL-09.
 
 ## Reviewer path
 
-Start here → open the relevant assignment/capstone folder → read the artifact → follow any linked live/demo evidence → return here for the complete package.
+`FINAL_INDEX.md` → assignment folder → artifact → external/live evidence → final package context.
 
-## Final verification still required
-
-The repository organization is now substantially complete, but this index is **not** the final submission sign-off yet. Remaining verification must confirm the exact FlyRank portal requirements, hours log, live FlyRank-domain requirement, final review/checkpoint, and any missing assignment evidence before submission.
+This repository is an evidence archive, not a replacement for the FlyRank portal. A reviewer should treat external requirements as verified only when the corresponding live URL, screenshot, portal state, or human sign-off is actually available.
